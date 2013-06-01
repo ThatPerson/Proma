@@ -1,0 +1,9 @@
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+CREATE TABLE IF NOT EXISTS `pr_todo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) NOT NULL,
+  `complete` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+
