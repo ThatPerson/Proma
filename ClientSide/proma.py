@@ -5,8 +5,7 @@ import hashlib
 import os
 #response = urllib2.urlopen('http://python.org/')
 #html = response.read()
-username = "ben"
-password = "password"
+
 #print(len(sys.argv))
 if (len(sys.argv) == 4):
 	if (sys.argv[1] == "connect"):
